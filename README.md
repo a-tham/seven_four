@@ -1,4 +1,4 @@
-# Seven/Four: Music Genre Prediction and Audio Sample Recommendation
+### Seven/Four: Music Genre Prediction and Audio Sample Recommendation
 
 Please refer to the PDF slides (seven_four_capstone.pdf) for further details.
 
@@ -8,11 +8,11 @@ Please check requirements.txt for the running of the main Jupyter notebook (seve
 
 Please check requirements_working_file.txt for the running of the full project Jupyter notebook (seven_four_working_file.ipynb)
 
-# Why Seven/Four?
+### Why Seven/Four?
 
 Seven/Four (stylised as 7/4) is an uncommon and unique time signature notation that indicates having 7 beats in a bar, instead of the common 4/4 time signature.
 
-# What does Seven/Four do?
+### What does Seven/Four do?
 
 Seven/Four is a music genre prediction & sample recommendation system.
  
