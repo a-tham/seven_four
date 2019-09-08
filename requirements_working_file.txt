@@ -1,0 +1,40 @@
+import numpy as np
+import pandas as pd
+from tensorflow import keras
+from tensorflow.keras.models import Sequential
+from tensorflow.keras import regularizers
+from tensorflow.keras.preprocessing.image import load_img, img_to_array, array_to_img, ImageDataGenerator
+from tensorflow.keras.layers import Dense, Flatten, Dropout, Conv1D, MaxPooling1D, BatchNormalization
+from tensorflow.keras.layers import ELU
+from tensorflow.keras.activations import elu
+from tensorflow.keras import models
+from tensorflow.keras import layers
+from tensorflow.python.keras import backend as k
+from keras.utils.np_utils import to_categorical
+from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint
+import tensorflow as tf
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+from scipy.io.wavfile import write
+from skimage import io, data
+import io as fileio
+import librosa
+from pydub import AudioSegment
+from spotipy.oauth2 import SpotifyClientCredentials
+import spotipy.util as util
+import spotipy
+import pylast
+from IPython.display import Audio
+from librosa import display
+from datetime import datetime
+import sounddevice as sd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import requests
+import soundfile as sf
+from six.moves.urllib.request import urlopen
+import urllib
+import os, random
+from time import time, sleep
+%matplotlib inline
