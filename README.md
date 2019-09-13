@@ -31,7 +31,7 @@ I intend to deploy this project for usage to test out its function in public.
 
 Mel-spectrogram image:
 
-<img src="Red hot chilli peppers_californication.wav.png">
+<img src="red hot chilli peppers_californication.wav.png">
 
 Example of CNN layers output (including dropout and batch normalisation):
 
