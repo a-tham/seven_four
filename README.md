@@ -29,6 +29,14 @@ The genre will recommend 5 audio samples derived from Freesound's API, which is 
 
 I intend to deploy this project for usage to test out its function in public.
 
+Mel-spectrogram image:
+
+<img src="Red hot chilli peppers_californication.wav.png">
+
+Example of CNN layers output (including dropout and batch normalisation):
+
+<img src="layers.png">
+
 ### The Long Read
 
 If you've read this far and have gotten curious as to how this all came about, here's a wall of text discussing it all.
