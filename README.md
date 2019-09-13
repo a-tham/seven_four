@@ -25,6 +25,6 @@ The library module, Librosa, proceeds to convert these into Mel-spectrograms bef
 
 The neural network currently runs 3 convolution layers and a dense layer to predict across 7 genres.
 
-The genre will recommend 10 audio samples derived from Freesound's API, which is ready for downloading and usage.
+The genre will recommend 5 audio samples derived from Freesound's API, which is ready for downloading and usage.
 
 I intend to deploy this project for usage to test out its function in public.
