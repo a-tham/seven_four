@@ -41,9 +41,13 @@ The current accuracy is 0.6915.
 
 Here's the current classification metrics report:
 
-
+<img src="metric_report.png">
 
 The blurred boundaries between Pop and R&B has caused much problems for the model in determining which genre between the 2, does a song belong to. My current assumption is that, due to the widespread usage of electronic music production as well as the evolution of music styles through time, this has really brought both genres much closer sonically, as compared to, say, the early 90's.
+
+Sample pool needs to be increased as well, and try to create a balanced data set so that the model can be trained better.
+
+These will be worked on as the project is still ongoing.
 
 ### The Long Read
 
