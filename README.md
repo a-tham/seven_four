@@ -49,7 +49,7 @@ The blurred boundaries between Pop and R&B has caused much problems for the mode
 
 If you've read this far and have gotten curious as to how this all came about, here's a wall of text discussing it all.
 
-You've been warned!
+You've been warned! 
 
 Seven/Four is a capstone project done during General Assembly (Singapore)'s Data Science Immersive program by yours truly, Alvin Tham. It originally started out as an exploratory experiment with the knowledge that I was gaining daily, as well as my love for music, through the gruelling bootcamp. The experiment started to flesh itself out and I realised eventually that this project of labour was something that I really wanted to work on and present as my capstone project.
 
