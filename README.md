@@ -43,8 +43,7 @@ If you've read this far and have gotten curious as to how this all came about, h
 
 You've been warned!
 
-Seven/Four is a capstone project done during General Assembly (Singapore) by yours truly, Alvin Tham.
-It originally started out as an exploratory experiment with the knowledge that I was gaining daily, as well as my love for music, through the gruelling bootcamp. The experiment started to flesh itself out and I realised eventually that this project of labour was something that I really wanted to work on and present as my capstone project.
+Seven/Four is a capstone project done during General Assembly (Singapore)'s Data Science Immersive program by yours truly, Alvin Tham. It originally started out as an exploratory experiment with the knowledge that I was gaining daily, as well as my love for music, through the gruelling bootcamp. The experiment started to flesh itself out and I realised eventually that this project of labour was something that I really wanted to work on and present as my capstone project.
 
 At the very start, the only piece I had was being able to hit Spotify's API as we had just covered APIs in class.
 This initial piece was what sparked everything off, as I started to check out Spotify's API functions, and then eventually use
