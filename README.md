@@ -37,6 +37,14 @@ Example of CNN layers output (including dropout and batch normalisation):
 
 <img src="layers.png">
 
+The current accuracy is 0.6915.
+
+Here's the current classification metrics report:
+
+<img src="metrics_report.png">
+
+The blurred boundaries between Pop and R&B has caused much problems for the model in determining which genre between the 2, does a song belong to. My current assumption is that, due to the widespread usage of electronic music production as well as the evolution of music styles through time, this has really brought both genres much closer sonically, as compared to, say, the early 90's.
+
 ### The Long Read
 
 If you've read this far and have gotten curious as to how this all came about, here's a wall of text discussing it all.
