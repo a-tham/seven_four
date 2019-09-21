@@ -29,8 +29,6 @@ The neural network currently runs 3 convolution layers and a dense layer to pred
 
 The genre will recommend 5 audio samples derived from Freesound's API, which is ready for downloading and usage.
 
-I intend to deploy this project for usage to test out its function in public.
-
 Mel-spectrogram image:
 
 <img src="red hot chilli peppers_californication.wav.png">
@@ -63,11 +61,21 @@ At the very start, the only piece I had was being able to hit Spotify's API as w
 This initial piece was what sparked everything off, as I started to check out Spotify's API functions, and then eventually use
 Last.FM's API as well for practice. At this point in time, a subtle notion started forming in my mind: Predicting music genres.
 
+Initially, I used specific features and getting the mean and standard deviation of these features, with a total of 13 features.
+
+These included signal zero crossing rate, amplitude, beats per minute, Mel-frequency cepstral coefficients (MFCCs), spectral centroids, root mean square values of each sample.
+
+Unfortunately, even though the accuracy for various models (logistic regression, random forest, KNN, using PCA as well) were decent for 7 categories (0.65), it had very poor recall scores. Iterating through many model variations, gathering more samples, selecting/de-selecting features, didn't seem to improve the scores (at times, deproving the score).
+
+That's when I decided to try my hand at a neural network.
+
 As I was a keen follower of Google's Tensorflow and it so happened that Tensorflow 2.0 Beta was released, I thought to myself, 
 hey, here's an opportunity to try and learn it whilst doing something that was in my mind. Considering that Tensorflow 2.0
 Beta was easier to learn with Keras being adopted as its high level API, I decided to put everything I had within me to proceed with music genre prediction. Carpe diem!
 
-So what transpired after? Well, basically:
+The initial network was actually a CRNN network, but it was difficult to train, was computationally intensive, and overfitted very quickly. Swapping out the RNN for a LSTM led to slightly better results, but was still very difficult to train. This was when Tensorboard was really useful in tracking the model's scores in real-time. I decided to cut out the RNN/LSTM portions to keep things simple, fast, and start from ground up again. This ultimately led to scores improving to just below 0.70 accuracy, with a good classification metric result.
+
+Here's a brief timeline of what transpired during the neural network training:
 
 - Read a lot of research papers
 - Read a lot on audio signal processing
