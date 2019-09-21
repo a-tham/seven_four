@@ -1,18 +1,13 @@
-import pandas as pd
-import numpy as np
-from tensorflow import keras
-import tensorflow as tf
-from pydub import AudioSegment
-from skimage import io, data
-import io as fileio
-import librosa
-from librosa import display
-from spotipy.oauth2 import SpotifyClientCredentials
-import spotipy.util as util
-import requests
-import spotipy
-import seaborn as sns
-import matplotlib.pyplot as plt
-from six.moves.urllib.request import urlopen
-import urllib
-%matplotlib inline
+Flask
+tensorflow==2.0.0b1
+gunicorn==19.9.0
+pandas
+numpy
+pydub
+scikit-image
+librosa
+spotipy
+seaborn
+matplotlib
+six
+soundfile
