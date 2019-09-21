@@ -1,6 +1,6 @@
 ### Seven/Four: Music Genre Prediction and Audio Sample Recommendation
 
-Website up live now at http://13.229.98.76:8080!
+Website up live now at http://13.229.98.76:8080 ! (Optimised for desktop usage viewing)
 
 Please refer to the PDF slides (seven_four_capstone.pdf) for further details.
 
