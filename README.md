@@ -1,5 +1,7 @@
 ### Seven/Four: Music Genre Prediction and Audio Sample Recommendation
 
+Website up live now at http://13.229.98.76:8080!
+
 Please refer to the PDF slides (seven_four_capstone.pdf) for further details.
 
 This is a project that helps musicians seeking to find audio samples via a song genre prediction.
@@ -71,13 +73,13 @@ So what transpired after? Well, basically:
 - Read a lot on audio signal processing
 - Researched on the neural network architectures used in aforementioned research papers
 - Decided to obtain my own samples instead of using datasets from Kaggle, by way of Spotify
-- Decided to create and train my own neural network instead of copying others
+- Decided to create and train my own neural network instead of using pre-trained models
 - Many long nights curating and obtaining Spotify playlists to train the model for 7 genres
 - Many long nights iterating through various audio features and extractions
 - Many long nights training and adjusting my neural network
 - Decided to deploy the model, which meant learning back-end and front-end development
-- Many long nights putting together the back and front end (not a web developer here, everything's new to me and learning!)
+- Putting together the back and front end, deploying to AWS EC2 via Docker container
 
-Admittedly, it won't be that great looking of a website, but it's enough for now to serve its purpose.
+Admittedly the website isn't that that great looking, but it's enough for now to serve its purpose.
 
-This project will continue to be developed and worked on.
+This project will continue to be developed and worked on!
