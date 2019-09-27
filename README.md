@@ -10,6 +10,8 @@ Please check requirements.txt for the running of the main Jupyter notebook (seve
 
 Please check requirements_working_file.txt for the running of the full project Jupyter notebook (seven_four_working_file.ipynb)
 
+This project is deployed on AWS via Docker.
+
 ### Why Seven/Four?
 
 Seven/Four (stylised as 7/4) is an uncommon and unique time signature notation that indicates having 7 beats in a bar, instead of the common 4/4 time signature.
