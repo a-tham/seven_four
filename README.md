@@ -49,6 +49,16 @@ Sample pool needs to be increased as well, and try to create a balanced data set
 
 These will be worked on as the project is still ongoing.
 
+### Limitations
+
+Since each song inside the training dataset is comprised of 30s previews from Spotify, I lack the control over which portion of each track is being used. This can result in song previews that aren't representative of the genre. For example, a heavy rock song should typically have strong amplitude across multiple frequencies (due to, for example, heavy usage of distortion, delay, and reverb guitar effects pedals). However, if a solo break (be it guitar or a lead singing only) occurs during a portion of the 30s audio sample, this can lead to a song sample being non-representative of the genre. 
+
+Eventually, this led to the training dataset being looked into closely in a very supervised learning manner. I partially negated this by listening to the preview urls whilst coding for the various portions of the project, admittedly this probably isn't the most efficient manner but at the same time, it was a way for me to exercise maximum control over what each sample was actually like and determine if it should or shouldn't be included in the training dataset.
+
+This can also lead to human bias in the sense that, I'm personally determining whether each track should be classified as whichever genre I choose it to be, although I tried to minimise as much of that as possible by utilising Last.FM's tags as well as random users curated playlists on Spotify.
+
+Another limitation was certain preview URLs being blocked due to licensing issues for available markets for them. Typically, these are for a select group of high profile, mainstream artists. It wasn't a major obstacle, but still a limitation nonetheless.
+
 ### The Long Read
 
 If you've read this far and have gotten curious as to how this all came about, here's a wall of text discussing it all.
