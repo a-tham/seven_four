@@ -1,5 +1,7 @@
 ### Seven/Four: Music Genre Prediction and Audio Sample Recommendation
 
+Note: It was fun whilst it lasted, but development on this project has been stopped and the website is no longer available!
+
 Website up live now at http://54.255.163.150:8080 ! (Optimised for desktop usage viewing)
 
 Please refer to the PDF slides (seven_four_capstone.pdf) for further details.
@@ -101,5 +103,3 @@ Here's a brief timeline of what transpired during the neural network training:
 - Putting together the back and front end, deploying to AWS EC2 via Docker container
 
 Admittedly the website isn't that that great looking, but it's enough for now to serve its purpose.
-
-This project will continue to be developed and worked on!
