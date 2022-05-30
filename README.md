@@ -2,8 +2,6 @@
 
 Note: It was fun whilst it lasted, but development on this project has been stopped and the website is no longer available!
 
-Website up live now at http://54.255.163.150:8080 ! (Optimised for desktop usage viewing)
-
 Please refer to the PDF slides (seven_four_capstone.pdf) for further details.
 
 This is a project that helps musicians seeking to find audio samples via a song genre prediction.
