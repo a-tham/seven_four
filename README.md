@@ -1,3 +1,5 @@
+### This past capstone project is no longer updated and is defunct.
+
 ### Seven/Four: Music Genre Prediction and Audio Sample Recommendation
 
 Note: It was fun whilst it lasted, but development on this project has been stopped and the website is no longer available!
